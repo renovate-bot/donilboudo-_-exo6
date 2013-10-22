@@ -1,0 +1,8 @@
+name: Repertoire
+version: 0.0.1
+author: Fabrice ILBOUDO
+description: A simple repertory
+dependencies:
+  browser: any
+  dartlero:
+    git: git://github.com/dzenanr/dartlero.git

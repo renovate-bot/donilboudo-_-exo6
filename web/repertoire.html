@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Repertoire</title>
+    <link rel="stylesheet" href="repertoire.css">
+  </head>
+  <body>
+    <h1>Repertoire</h1>
+    <div id="contact_form">
+     <fieldset id="nouveau_contact">
+          <legend>Nouveau Conact</legend>
+          <form name="contact" autocomplete>
+          <table>
+            <td><tr>Nom <input type="text" id="nom" label="nom" placeholder="nom" class="border_input"></tr></td>
+            <td><tr>Prénom <input type="text" id="prenom" label="prenom" placeholder="prenom" class="border_input"></tr></td>
+            <td><tr>Email <input type="text" id="mail" label="mail" placeholder="email" class="border_input"></tr></td>
+            <td><tr>Numéro <input type="tel" id="tel" label="tel" placeholder="000-000-0000" class="border_input"></tr></td>
+            <td><tr><button type="button" id="ajouter" >Ajouter</button></tr></td>
+            <td><tr><button type="button" id="update" >Mise a jour</button></tr></td>
+            <td><tr><button type="button" id="reset" >Reset</button></tr></td>
+             </table>
+             </form>
+         </fieldset>
+         <br>
+         
+    <fieldset id="liste_contact">
+    <legend>Liste des contacts</legend>
+     <table id="listeContacts" border="1">
+    </table>
+    </fieldset>
+    </div>
+   <script type="application/dart" src="repertoire.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

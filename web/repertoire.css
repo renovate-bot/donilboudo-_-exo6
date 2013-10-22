@@ -1,0 +1,50 @@
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+  width: 50%;
+  height: 80%;
+}
+
+h1, p {
+  color: #333;
+  align: center;
+}
+
+#nouveau_contact {
+  width: 100px;
+  height: 250px;
+  position: relative;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#liste_contact {
+  width: 500px;
+  height: 250px;
+  position: relative;
+  margin-top: -280px;
+  margin-left: 250px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.border_input{
+  border: 1px solid red;
+}
+
+#contact_for{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 250px;
+}
+
+.contact_liste{
+   border: 1px solid #ccc;
+  background-color: #fff;
+}
