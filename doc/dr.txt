@@ -1,0 +1,16 @@
+ex06
+
+6/10
+
+en retard 2013-10-22 19:20
+
+(-1)
+.gitignore ?
+
+Modifier: couleur rouge
+(-2) 
+Breaking on exception: The null object does not have a setter 'nom='.
+
+(-1)
+Utiliser un stockage local pour enregistrer les contacts.
+
